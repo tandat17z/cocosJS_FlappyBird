@@ -1,0 +1,56 @@
+
+
+var MW = MW || {};
+
+MW.WIDTH = 1280
+MW.HEIGHT = 720
+
+//game state
+MW.GAME_STATE = {
+    HOME:1,
+    COUNTDOWN: 2,
+    PLAY:3,
+    PAUSE: 4,
+    GAMEOVER: 5
+};
+MW.STATE = null;
+MW.CLICK = false;
+
+//sound
+MW.SOUND = true;
+
+//score
+MW.SCORE = 0;
+MW.BEST_SCORE = 0;
+
+//text
+MW.FONTCOLOR = "#ffffff";
+MW.FONTSIZE1 = 90;
+MW.FONTSIZE2 = 60;
+
+//keys
+MW.KEYS = [];
+
+//countdown
+MW.T_COUNTDOWN = 5
+
+MW.BG_SCALE = 2.5;
+MW.PIPE_SCALE = 1.5;
+
+MW.BIRD_X = 200
+MW.BIRD_SPEED = 200;
+MW.BIRD_SCALE = 1.5;
+MW.BIRD_POWERSCALE = 3;
+MW.BIRD_T_S1 = 5;
+MW.BIRD_T_S2 = 2;
+MW.BIRD_COUNTDOWN_S = 10;
+
+MW.GRAVITY = 1500;
+
+MW.CONTAINER = {
+    PIPES: []
+}
+
+MW.t_DASHSKILL = 10;
+MW.t_useDASHSKILL = 1;
+MW.DASH = 3;

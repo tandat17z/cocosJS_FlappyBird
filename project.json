@@ -1,0 +1,44 @@
+{
+    "project_type": "javascript",
+    "debugMode": 1,
+    "showFPS": true,
+    "frameRate": 10000,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "frameworks/cocos2d-html5",
+    "modules": [
+        "cocos2d",
+        "extensions",
+        "external",
+        "plugin-facebook",
+        "plugin-google"
+    ],
+    "plugin": {
+        "tracker": {
+            "appName": "ZPPortal"
+        },
+        "facebook": {
+            "appId": "526742574046446",
+            "autoLogAppEvents": true,
+            "xfbml": true,
+            "version": "v5.0"
+        },
+        "google": {
+            "client_id": "578063972293-4l5n2tt9qk72qb0ge9d9bao72k7qomcg.apps.googleusercontent.com"
+        }
+    },
+    "jsList": [
+        "src/resource.js",
+        "src/config/GameConfig.js",
+        "src/game/HomeLayer.js",
+        "src/game/GameLayer.js",
+        "src/game/CountdownLayer.js",
+        "src/game/GameControllerLayer.js",
+        "src/game/Bird.js",
+        "src/game/Pipe.js",
+        "src/game/Ground.js",
+        "src/game/Background.js",
+        "src/game/GameoverLayer.js",
+        "src/game/StateMachineLayer.js"
+    ]
+}
